@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Multiplication
+namespace Subtraction
 {
     class Program
     {
@@ -8,7 +8,6 @@ namespace Multiplication
         {
             int firstnumber = 0;
             int secondnumber = 0;
-            int thirdnumber = 0;
             int result = 0;
             
             Console.Write("please enter the first number : ");
@@ -17,10 +16,7 @@ namespace Multiplication
             Console.Write("please enter the second number : ");
             secondnumber = int.Parse(Console.ReadLine());
 
-            Console.Write("please enter the third number : ");
-            thirdnumber = int.Parse(Console.ReadLine());
-
-            result = firstnumber * secondnumber * thirdnumber;
+            result = firstnumber - secondnumber ;
             Console.WriteLine("the answer is: " + result);
             
         }
